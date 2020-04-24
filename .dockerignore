@@ -1,0 +1,9 @@
+.idea
+*.iml
+*.class
+*.log
+hs_err_pid*
+**/target/
+**/bak/
+**/strace/
+**/strace*/

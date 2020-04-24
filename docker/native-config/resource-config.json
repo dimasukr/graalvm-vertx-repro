@@ -1,0 +1,7 @@
+{
+  "resources":[
+    {"pattern":"\\QMETA-INF/services/io.vertx.core.spi.FutureFactory\\E"}, 
+    {"pattern":"\\QMETA-INF/services/io.vertx.core.spi.VertxFactory\\E"}
+  ],
+  "bundles":[]
+}
