@@ -4,13 +4,11 @@ import io.vertx.pgclient.PgConnection;
 
 public class App {
 
-    static PgConnection dbConnection;
-
     public static void main(String[] args) {
         PgConnection.connect(Vertx.vertx(), PgConnectOptions.fromEnv()
                 , arConn -> {
                     if (arConn.succeeded()) {
-                        dbConnection = arConn.result();
+                        System.out.println("DB Connection succeeded");
                     } else {
                         System.out.println("DB Connection exception occurred");
                     }
