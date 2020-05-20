@@ -2,8 +2,8 @@
 Project to reproduce graalvm native image issue with vertx-pg-client https://github.com/oracle/graal/issues/2389
 
 To reproduce issue run the following command:  
-`bash docker_build.sh`
-Or if no docker is installed but you have graalvm and native-image (20.0) then you can run
+`bash docker_build.sh`  
+Or if you don't have docker but you have graalvm and native-image (20.1.0) then you can run
 ```
 mvn package
 mkdir build
