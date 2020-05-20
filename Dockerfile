@@ -8,7 +8,7 @@ COPY src /build/src
 RUN mvn compile package
 # Result is in bootstrap.jar because of finalName in pom.xml
 
-FROM oracle/graalvm-ce:20.0.0-java11 as graal
+FROM oracle/graalvm-ce:20.1.0-java11 as graal
 
 RUN gu install native-image
 
